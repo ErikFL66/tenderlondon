@@ -62,6 +62,7 @@ main {
 header {
   max-width: 1200px;
   margin: 0 auto;
+  margin-inline: 8rem;
 }
 .navtekst {
   font-family: "tyfont", serif;
