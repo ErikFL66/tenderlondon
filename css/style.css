@@ -9,6 +9,7 @@ Img {
   width: 100%;
   height: auto;
   display: block;
+  max-width: 100%;
 }
 
 /******** FONT *********/
@@ -55,8 +56,11 @@ body {
   margin: 0 auto;
 }
 main {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
+}
+.contacthead {
+  max-width: 1200px;
 }
 
 header {
@@ -148,8 +152,10 @@ footer {
   /* background-size: 160%; */
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 1%;
-  margin-top: 10%;
+  padding-inline: 2%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  /* margin-top: 10%; */
   overflow: hidden;
 }
 .socials-foot {
@@ -182,6 +188,14 @@ footer {
 .headline {
   text-align: center;
   margin-block: 4rem;
+}
+
+.troldfoot {
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 0rem;
+
+  z-index: 5;
 }
 
 /************* INDEX ******************/
@@ -424,4 +438,12 @@ footer {
 
 .reviewp {
   font-size: 1rem;
+}
+
+.vidsection {
+  margin-top: 2rem;
+}
+
+.index-trold {
+  margin-bottom: 2rem;
 }
