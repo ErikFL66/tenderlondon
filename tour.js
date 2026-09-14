@@ -4,6 +4,9 @@ const logo = document.querySelector(".logoclick");
 const phono = document.querySelector(".phono");
 const loppen = document.querySelector(".loppen");
 const sxse = document.querySelector(".sxse");
+const rich = document.querySelector(".rich")
+const castle = document.querySelector(".castle")
+const workshop = document.querySelector(".workshop")
 
 burger.addEventListener("click", burgerClick);
 function burgerClick() {
@@ -38,4 +41,25 @@ sxse.addEventListener("click", sxselink);
 function sxselink() {
   console.log("sxselink");
   location.href = "https://dice.fm/partner/tickets/event/mxn75v-sxse-summer-2026-12th-sep-the-old-dispensary-london-the-bear-london-dash-the-henge-store-london-henge-brixton-london-tickets?dice_id=10168125&dice_channel=web&dice_tags=organic&dice_campaign=FreakFreak&dice_feature=mio_marketing&utm_source=web&utm_campaign=FreakFreak&utm_medium=mio_marketing";
+}
+
+rich.addEventListener("click", richlink);
+
+function richlink() {
+  console.log("richlink");
+  location.href = "https://www.instagram.com/p/Dc6XEtJDNJl/?img_index=1";
+}
+
+castle.addEventListener("click", castlelink);
+
+function castlelink() {
+  console.log("castlelink");
+  location.href = "https://www.seetickets.com/event/rough-edges-presents-the-castle/the-castle/3705334?src=Tender+Youth";
+}
+
+workshop.addEventListener("click", workshoplink);
+
+function workshoplink() {
+  console.log("workshoplink");
+  location.href = "https://ticketool.co.uk/events-fe/a27056cb-d259-4a20-b007-ab1b7c24b512?promoter=98f3bf22-e7a4-4de7-9f2f-229b53b84e54";
 }
