@@ -7,6 +7,7 @@ const sxse = document.querySelector(".sxse");
 const rich = document.querySelector(".rich")
 const castle = document.querySelector(".castle")
 const workshop = document.querySelector(".workshop")
+const wind = document.querySelector(".wind")
 
 burger.addEventListener("click", burgerClick);
 function burgerClick() {
@@ -62,4 +63,12 @@ workshop.addEventListener("click", workshoplink);
 function workshoplink() {
   console.log("workshoplink");
   location.href = "https://ticketool.co.uk/events-fe/a27056cb-d259-4a20-b007-ab1b7c24b512?promoter=98f3bf22-e7a4-4de7-9f2f-229b53b84e54";
+}
+
+
+wind.addEventListener("click", windlink);
+
+function windlink() {
+  console.log("workshoplink");
+  location.href = "https://www.windmillbrixton.co.uk/events/2026-09-18-tender-youth-charlemagne-wasabi-the-windmill";
 }
